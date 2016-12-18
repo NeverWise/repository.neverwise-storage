@@ -1,2 +1,2 @@
 # repository.neverwise-storage
-Files storage of my repository
+Files storage of my repository.
