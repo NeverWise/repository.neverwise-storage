@@ -24,10 +24,10 @@
     <source>https://github.com/NeverWise/plugin.video.dplay</source>
   </extension>
 </addon>
-<addon id="plugin.video.lacosa" name="La Cosa" version="1.0.10" provider-name="NeverWise">
+<addon id="plugin.video.lacosa" name="La Cosa" version="1.0.11" provider-name="NeverWise">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.neverwise" version="1.0.8"/>
+    <import addon="script.module.neverwise" version="1.0.9"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -46,6 +46,30 @@
     <website></website>
     <email></email>
     <source>https://github.com/NeverWise/plugin.video.lacosa</source>
+  </extension>
+</addon>
+<addon id="plugin.video.skytg24" name="Sky Tg24" version="1.0.3" provider-name="NeverWise">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.neverwise" version="1.0.8"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="it">Sky Tg24</summary>
+    <summary lang="en">Sky Tg24</summary>
+    <description lang="it">Canale televisivo italiano all-news prodotto da Sky Italia.</description>
+    <description lang="en">Italian all-news channel, owned by Sky Italia.</description>
+    <disclaimer lang="it">Alcune parti di questo addon potrebbero non essere legali nel tuo paese di residenza. Si prega di verificare la legislazione in vigore prima di installare.</disclaimer>
+    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence. Please check with your local laws before installing.</disclaimer>
+    <language>it</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/NeverWise/plugin.video.skytg24</source>
   </extension>
 </addon>
 <addon id="plugin.video.virginradio.it" name="Virgin Radio Italia" version="1.0.7" provider-name="NeverWise">
@@ -95,7 +119,7 @@
     <source></source>
   </extension>
 </addon>
-<addon id="script.module.neverwise" name="NeverWise Kodi toolkit" version="1.0.8" provider-name="NeverWise">
+<addon id="script.module.neverwise" name="NeverWise Kodi toolkit" version="1.0.9" provider-name="NeverWise">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
