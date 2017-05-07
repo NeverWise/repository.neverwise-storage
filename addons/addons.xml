@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.dplay" name="Dplay" version="1.0.2" provider-name="NeverWise">
+<addon id="plugin.video.dplay" name="Dplay" version="1.0.3" provider-name="NeverWise">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.neverwise" version="1.0.8"/>
+    <import addon="script.module.neverwise" version="1.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="it">Dplay</summary>
-    <summary lang="en">Dplay</summary>
-    <description lang="it">Dplay è un servizio di streaming video che ti consente di guardare gratis e on demand i tuoi programmi preferiti di Real Time, Dmax, DeejayTV, Focus, Giallo, Frisbee e K2 dove vuoi e quando vuoi.[CR][CR]Con il meglio della programmazione dei canali free di Discovery Italia, Dplay porta la TV oltre i soliti schermi.</description>
-    <description lang="en">Dplay is a video streaming service that lets you watch, for free and on demand, your favorite Real Time, Dmax, DeejayTv, Focus, Yellow, Frisbee and K2 programs where you want and when you want.[CR][CR]Featuring the best programming free channels of Discovery Italy, Dplay brings the TV beyond the usual TV screens.</description>
-    <disclaimer lang="it">Alcune parti di questo addon potrebbero non essere legali nel tuo paese di residenza. Si prega di verificare la legislazione in vigore prima di installare.</disclaimer>
-    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence. Please check with your local laws before installing.</disclaimer>
+    <summary lang="it_IT">Dplay</summary>
+    <summary lang="en_GB">Dplay</summary>
+    <description lang="it_IT">Dplay è un servizio di streaming video che ti consente di guardare gratis e on demand i tuoi programmi preferiti di Real Time, Dmax, DeejayTV, Focus, Giallo, Frisbee e K2 dove vuoi e quando vuoi.[CR][CR]Con il meglio della programmazione dei canali free di Discovery Italia, Dplay porta la TV oltre i soliti schermi.</description>
+    <description lang="en_GB">Dplay is a video streaming service that lets you watch, for free and on demand, your favorite Real Time, Dmax, DeejayTv, Focus, Yellow, Frisbee and K2 programs where you want and when you want.[CR][CR]Featuring the best programming free channels of Discovery Italy, Dplay brings the TV beyond the usual TV screens.</description>
+    <disclaimer lang="it_IT">Alcune parti di questo addon potrebbero non essere legali nel tuo paese di residenza. Si prega di verificare la legislazione in vigore prima di installare.</disclaimer>
+    <disclaimer lang="en_GB">Some parts of this addon may not be legal in your country of residence. Please check with your local laws before installing.</disclaimer>
     <language>it</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <forum></forum>
@@ -72,23 +72,22 @@
     <source>https://github.com/NeverWise/plugin.video.skytg24</source>
   </extension>
 </addon>
-<addon id="plugin.video.virginradio.it" name="Virgin Radio Italia" version="1.0.7" provider-name="NeverWise">
+<addon id="plugin.video.virginradio.it" name="Virgin Radio Italia" version="1.0.8" provider-name="NeverWise">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.neverwise" version="1.0.8"/>
-    <import addon="plugin.video.youtube" version="4.4.10" optional="true"/>
+    <import addon="script.module.neverwise" version="1.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>audio video</provides>
+    <provides>audio video image</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="it">Virgin Radio Italia</summary>
-    <summary lang="en">Virgin Radio Italia</summary>
-    <description lang="it">Video e musica dal sito virginradio.it.</description>
-    <description lang="en">Video and music from the site virginradio.it.</description>
-    <disclaimer lang="it">Alcune parti di questo addon potrebbero non essere legali nel tuo paese di residenza. Si prega di verificare la legislazione in vigore prima di installare.</disclaimer>
-    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence. Please check with your local laws before installing.</disclaimer>
+    <summary lang="it_IT">Virgin Radio Italia</summary>
+    <summary lang="en_GB">Virgin Radio Italia</summary>
+    <description lang="it_IT">Video e musica dal sito virginradio.it.</description>
+    <description lang="en_GB">Video and music from the site virginradio.it.</description>
+    <disclaimer lang="it_IT">Alcune parti di questo addon potrebbero non essere legali nel tuo paese di residenza. Si prega di verificare la legislazione in vigore prima di installare.</disclaimer>
+    <disclaimer lang="en_GB">Some parts of this addon may not be legal in your country of residence. Please check with your local laws before installing.</disclaimer>
     <language>it</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <forum></forum>
@@ -119,18 +118,19 @@
     <source></source>
   </extension>
 </addon>
-<addon id="script.module.neverwise" name="NeverWise Kodi toolkit" version="1.0.9" provider-name="NeverWise">
+<addon id="script.module.neverwise" name="NeverWise Kodi toolkit" version="1.1.0" provider-name="NeverWise">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.beautifulsoup4" version="4.5.3"/>
+    <import addon="script.module.dateutil" version="2.4.2"/>
   </requires>
   <extension library="lib" point="xbmc.python.module"/>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="it">Strumenti per gli addons audio/video di Kodi.</summary>
-    <summary lang="en">Toolkit for Kodi audio/video addons.</summary>
-    <description lang="it">Questi strumenti sono utilizzati negli addons per Kodi sviluppati da NeverWise.</description>
-    <description lang="en">These toolkit are used in the addons for Kodi developed by NeverWise.</description>
+    <summary lang="it_IT">Strumenti per gli addons audio/video di Kodi.</summary>
+    <summary lang="en_GB">Toolkit for Kodi audio/video addons.</summary>
+    <description lang="it_IT">Questi strumenti sono utilizzati negli addons per Kodi sviluppati da NeverWise.</description>
+    <description lang="en_GB">These toolkit are used in the addons for Kodi developed by NeverWise.</description>
     <language>it</language>
     <license>GNU LESSER GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <forum></forum>
@@ -139,10 +139,10 @@
     <source>https://github.com/NeverWise/script.module.neverwise</source>
    </extension>
 </addon>
-<addon id="service.neverwise.livetv" name="NeverWise live TV service" version="1.0.0" provider-name="NeverWise">
+<addon id="service.neverwise.livetv" name="NeverWise live TV service" version="1.0.1" provider-name="NeverWise">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.neverwise" version="1.0.8"/>
+    <import addon="script.module.neverwise" version="1.1.0"/>
     <import addon="pvr.iptvsimple" version="1.9.3"/>
     <import addon="script.module.requests" version="2.9.1"/>
   </requires>
@@ -152,12 +152,12 @@
   <extension point="xbmc.service" library="service.py" start="login"/>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="it">TV italiane per IPTV Simple PVR Addon</summary>
-    <summary lang="en">Italian TV for IPTV Simple PVR Addon</summary>
-    <description lang="it">Questo service addon permette di impostare alcune TV streaming automaticamente.</description>
-    <description lang="en">This service addon allows you to automatically set some italian streaming TV.</description>
-    <disclaimer lang="it">Alcune parti di questo addon potrebbero non essere legali nel tuo paese di residenza. Si prega di verificare la legislazione in vigore prima di installare.</disclaimer>
-    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence. Please check with your local laws before installing.</disclaimer>
+    <summary lang="it_IT">TV italiane per IPTV Simple PVR Addon</summary>
+    <summary lang="en_GB">Italian TV for IPTV Simple PVR Addon</summary>
+    <description lang="it_IT">Questo service addon permette di impostare alcune TV streaming automaticamente.</description>
+    <description lang="en_GB">This service addon allows you to automatically set some italian streaming TV.</description>
+    <disclaimer lang="it_IT">Alcune parti di questo addon potrebbero non essere legali nel tuo paese di residenza. Si prega di verificare la legislazione in vigore prima di installare.</disclaimer>
+    <disclaimer lang="en_GB">Some parts of this addon may not be legal in your country of residence. Please check with your local laws before installing.</disclaimer>
     <language>it</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <forum></forum>

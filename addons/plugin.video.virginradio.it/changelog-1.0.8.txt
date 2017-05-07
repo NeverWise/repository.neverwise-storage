@@ -1,0 +1,34 @@
+[B]Version 1.0.8[/B]
+- Improved radio and video section.
+- Added podcast and pictures section.
+- Added the ability to download videos through ffmpeg.
+
+[B]Version 1.0.7[/B]
+- Replaced dialog boxes with notifications.
+- Small bugfix/improvements.
+
+[B]Version 1.0.6[/B]
+- Updated code to the site changes.
+- Added menu Video/Audio.
+- Updated to the new neverwise library.
+
+[B]Version 1.0.5[/B]
+- Updated code to the site changes.
+
+[B]Version 1.0.4[/B]
+- Small bugfix/improvements.
+
+[B]Version 1.0.3[/B]
+- Small improvements.
+- Adapted to the xbmc repository guidelines.
+
+[B]Version 1.0.2[/B]
+- Updated to the new neverwise library.
+- Small bugfix/improvements.
+
+[B]Version 1.0.1[/B]
+- Fixed bug: now videos played correctly.
+- Updated radio streams.
+
+[B]Version 1.0.0[/B]
+- Initial version.
