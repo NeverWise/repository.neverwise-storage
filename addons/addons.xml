@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.dplay" name="Dplay" version="1.0.6" provider-name="NeverWise">
+<addon id="plugin.video.dplay" name="Dplay" version="1.0.8.3" provider-name="NeverWise, cttynul, maxbambi">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.neverwise" version="1.1.0"/>
+    <import addon="script.module.neverwise" version="1.1.2"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -118,7 +118,7 @@
     <source></source>
   </extension>
 </addon>
-<addon id="script.module.neverwise" name="NeverWise Kodi toolkit" version="1.1.1" provider-name="NeverWise">
+<addon id="script.module.neverwise" name="NeverWise Kodi toolkit" version="1.1.2" provider-name="NeverWise, cttynul">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.beautifulsoup4" version="4.3.2"/>
